@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/React-Calculator/static/css/main.f3742870.chunk.css",
-    "main.js": "/React-Calculator/static/js/main.072a5bee.chunk.js",
-    "main.js.map": "/React-Calculator/static/js/main.072a5bee.chunk.js.map",
-    "runtime-main.js": "/React-Calculator/static/js/runtime-main.caf9503f.js",
-    "runtime-main.js.map": "/React-Calculator/static/js/runtime-main.caf9503f.js.map",
-    "static/js/2.eddc55cf.chunk.js": "/React-Calculator/static/js/2.eddc55cf.chunk.js",
-    "static/js/2.eddc55cf.chunk.js.map": "/React-Calculator/static/js/2.eddc55cf.chunk.js.map",
-    "static/js/3.dfc56624.chunk.js": "/React-Calculator/static/js/3.dfc56624.chunk.js",
-    "static/js/3.dfc56624.chunk.js.map": "/React-Calculator/static/js/3.dfc56624.chunk.js.map",
-    "index.html": "/React-Calculator/index.html",
-    "static/css/main.f3742870.chunk.css.map": "/React-Calculator/static/css/main.f3742870.chunk.css.map",
-    "static/js/2.eddc55cf.chunk.js.LICENSE.txt": "/React-Calculator/static/js/2.eddc55cf.chunk.js.LICENSE.txt"
+    "main.css": "/rylandinthesun/React-Calculator/static/css/main.f3742870.chunk.css",
+    "main.js": "/rylandinthesun/React-Calculator/static/js/main.072a5bee.chunk.js",
+    "main.js.map": "/rylandinthesun/React-Calculator/static/js/main.072a5bee.chunk.js.map",
+    "runtime-main.js": "/rylandinthesun/React-Calculator/static/js/runtime-main.eb8040c5.js",
+    "runtime-main.js.map": "/rylandinthesun/React-Calculator/static/js/runtime-main.eb8040c5.js.map",
+    "static/js/2.eddc55cf.chunk.js": "/rylandinthesun/React-Calculator/static/js/2.eddc55cf.chunk.js",
+    "static/js/2.eddc55cf.chunk.js.map": "/rylandinthesun/React-Calculator/static/js/2.eddc55cf.chunk.js.map",
+    "static/js/3.dfc56624.chunk.js": "/rylandinthesun/React-Calculator/static/js/3.dfc56624.chunk.js",
+    "static/js/3.dfc56624.chunk.js.map": "/rylandinthesun/React-Calculator/static/js/3.dfc56624.chunk.js.map",
+    "index.html": "/rylandinthesun/React-Calculator/index.html",
+    "static/css/main.f3742870.chunk.css.map": "/rylandinthesun/React-Calculator/static/css/main.f3742870.chunk.css.map",
+    "static/js/2.eddc55cf.chunk.js.LICENSE.txt": "/rylandinthesun/React-Calculator/static/js/2.eddc55cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.caf9503f.js",
+    "static/js/runtime-main.eb8040c5.js",
     "static/js/2.eddc55cf.chunk.js",
     "static/css/main.f3742870.chunk.css",
     "static/js/main.072a5bee.chunk.js"
