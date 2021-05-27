@@ -99,6 +99,10 @@ button:active {
 	outline: none;
 }
 
+button:hover {
+	background-color: $light;
+}
+
 .face {
 	background-color: $cement;
 	font-size: 28px;
