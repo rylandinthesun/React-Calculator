@@ -44,7 +44,7 @@ const Calculator = () => {
 					<button className="highlight slide-in" onClick={backspace}>
 						C
 					</button>
-					<button className="highlight slide-in" name=" / " onClick={handleClick}>
+					<button className="highlight slide-in" name="/" onClick={handleClick}>
 						&#247;
 					</button>
 					<button className="slide-in" name="7" onClick={handleClick}>
@@ -56,7 +56,7 @@ const Calculator = () => {
 					<button className="slide-in" name="9" onClick={handleClick}>
 						9
 					</button>
-					<button className="highlight slide-in" name=" * " onClick={handleClick}>
+					<button className="highlight slide-in" name="*" onClick={handleClick}>
 						&#215;
 					</button>
 
@@ -69,7 +69,7 @@ const Calculator = () => {
 					<button className="slide-in" name="6" onClick={handleClick}>
 						6
 					</button>
-					<button className="highlight slide-in" name=" - " onClick={handleClick}>
+					<button className="highlight slide-in" name="-" onClick={handleClick}>
 						&#8722;
 					</button>
 
@@ -82,7 +82,7 @@ const Calculator = () => {
 					<button className="slide-in" name="3" onClick={handleClick}>
 						3
 					</button>
-					<button className="highlight slide-in" name=" + " onClick={handleClick}>
+					<button className="highlight slide-in" name="+" onClick={handleClick}>
 						&#43;
 					</button>
 
