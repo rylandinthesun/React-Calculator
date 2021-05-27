@@ -1,0 +1,134 @@
+$yellow: #eba83a;
+$darkyellow: #b5802c;
+$red: #bb371a;
+$bg: #72a079;
+$light: #fff8d9;
+$cement: #d5dbb3;
+$dark: #b4b89a;
+$darker: #94987f;
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+* {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
+	background-color: $bg;
+}
+
+.App {
+	display: grid;
+	place-items: center;
+}
+
+h1 {
+	top: 10%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+	font-size: 30px;
+	font-weight: 900;
+
+	color: $red;
+	text-shadow: 1px 1px #333;
+}
+
+.container {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+	width: 256px;
+	text-align: center;
+	border: 2px solid $darker;
+	padding: 10px;
+	border-radius: 3px;
+	background: $light;
+	box-shadow: 1px 1px 0px $dark, 2px 2px 0px $dark, 3px 3px 0px $dark, 4px 4px 0px $dark, 5px 5px 0px $dark,
+		6px 6px 0px $dark, 7px 7px 0px $dark, 8px 8px 0px $dark, 9px 9px 0px $dark, 10px 10px 0px $dark,
+		11px 11px 0px $dark, 12px 12px 0px $darker;
+}
+
+.result {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 75px;
+	width: 250px;
+	background-color: $cement;
+	border-radius: 3px;
+	border: 2px solid $darker;
+	color: $red;
+	box-shadow: inset 3px 3px $dark, inset 4px 4px $darker;
+	margin-left: 3px;
+}
+
+.keypad {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: minmax(60px, auto);
+	background: $light;
+	margin-top: 5px;
+}
+
+.clear {
+	grid-column: 1/3;
+}
+
+.equals {
+	grid-column: 3/5;
+}
+
+button {
+	margin: 4px;
+	border: 2px solid $dark;
+	border-radius: 4px;
+	box-shadow: 3px 3px $cement, 4px 4px $dark;
+	background-color: $cement;
+	color: $red;
+	cursor: pointer;
+	transition: box-shadow 0.1s ease-in-out;
+	outline: 0;
+	text-shadow: 1px 1px $darker;
+}
+
+button:active {
+	box-shadow: 0px 0px;
+	transform: translateY();
+	outline: none;
+}
+
+.face {
+	background-color: $cement;
+	font-size: 28px;
+	padding-right: 8px;
+	padding-top: 8px;
+	text-shadow: 1px 1px $dark;
+}
+
+.button:focus {
+	outline: 0;
+}
+
+.highlight {
+	background-color: $yellow;
+	border: 2px solid $darkyellow;
+	box-shadow: 3px 3px $yellow, 4px 4px $darkyellow;
+	text-shadow: 1px 1px $darkyellow;
+}
+
+.slide-in {
+	animation: slideMe 1s;
+}
+
+@keyframes slideMe {
+	0% {
+		transform: translateX(-50px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
