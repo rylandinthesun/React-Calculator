@@ -26,8 +26,8 @@ const Calculator = () => {
 		}
 	};
 
-	if (result.length >= 10) {
-		setResult(result.substr(0, 10 - 1));
+	if (result.length >= 11) {
+		setResult(result.substr(0, 11 - 1));
 	}
 
 	return (
