@@ -15,6 +15,12 @@ $darker: #94987f;
 	background-color: $bg;
 }
 
+html,
+body {
+	width: auto !important;
+	overflow-x: hidden;
+}
+
 .calc {
 	display: grid;
 	place-items: center;
