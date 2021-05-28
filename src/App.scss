@@ -24,14 +24,10 @@ body {
 .calc {
 	display: grid;
 	place-items: center;
+	padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 h1 {
-	// top: 50px;
-	// left: 50%;
-	// position: absolute;
-	// transform: translate(-50%, -50%);
-	// margin: 0 auto;
 	text-align: center;
 	margin-top: 8vh;
 	font-size: 30px;
@@ -47,8 +43,7 @@ h1 {
 	position: absolute;
 	transform: translate(-50%, -50%);
 	margin: 0 auto;
-	min-width: 256px;
-	width: 256px;
+	width: 250px;
 	text-align: center;
 	border: 2px solid $darker;
 	padding: 10px;
@@ -63,10 +58,8 @@ h1 {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	min-height: 70px;
 	height: 70px;
-	min-width: 247px;
-	width: 247px;
+	width: auto;
 	background-color: $cement;
 	border-radius: 3px;
 	border: 2px solid $darker;
@@ -79,12 +72,9 @@ h1 {
 .keypad {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	// grid-auto-rows: minmax(60px, auto);
-	grid-auto-rows: 60px;
+	grid-auto-rows: minmax(60px, auto);
 	background: $light;
 	margin-top: 5px;
-	max-width: 256px;
-	width: 256px;
 }
 
 .clear {
