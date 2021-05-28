@@ -74,6 +74,8 @@ h1 {
 	grid-auto-rows: minmax(50px, auto);
 	background: $light;
 	margin-top: 5px;
+	min-width: 256px;
+	width: 256px;
 }
 
 .clear {
